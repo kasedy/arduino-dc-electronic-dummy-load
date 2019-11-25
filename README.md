@@ -16,11 +16,11 @@
 
 # Features
 
-* Do not requere PCB manufactering and can be assembled on a perf board
-* Multilayer stacked design to reduce the circuit size
-* Using prebuild arduino modules reduces assemble effort
-* Bright oled display with intuitive user interface
-* Writes dischrge current and vltage values into microSD card
+* Doesn't require PCB manufacturing and can be assembled on a perf board
+* Multi layer stacked design to reduce the circuit size
+* Using prebuilt Arduino modules reduces assemble effort
+* Bright OLED display with intuitive user interface
+* Writes discharge current and voltage values into microSD card
 * Fully customizable
 
 # Part list
