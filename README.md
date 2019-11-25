@@ -16,11 +16,11 @@
 
 # Features
 
-* Do not requere PCB manufactering. Can be assembled on a perf board.
+* Do not requere PCB manufactering and can be assembled on a perf board
 * Multilayer stacked design to reduce the circuit size
 * Using prebuild arduino modules reduces assemble effort
 * Bright oled display with intuitive user interface
-* Writes dischrge current and vltage values into microSD card.
+* Writes dischrge current and vltage values into microSD card
 * Fully customizable
 
 # Part list
@@ -51,8 +51,8 @@
 # Tools
 1. Soldering iron
 2. Flux
-3. Soldering wire.
-4. Multimeter.
+3. Soldering wire
+4. Multimeter
 
 # Assembly instructions
 
