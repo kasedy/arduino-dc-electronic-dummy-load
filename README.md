@@ -1,16 +1,27 @@
-# Arduino DIY: electronic dummy load 
-
+# Arduino DIY: constant current electronic dummy load 
 
 ![Screenshot](doc/device.jpg)
 
 
 # Absolute Maximum Ratings
 
-* Power dissipation: 120 W
-* Current: 19 A
-* DC voltage: 25 V
+* Maximum Input Load Voltage - 25V
+* Maximum Input Load Current - 16A
+* Maximum Input Power Dissapation - 120W
+* Power Source - 12V power addapter
+* Minimum load current draw - 50mA
+* Constant current resolution - 1mA
+* Current reading error (limited by INA219 ADC resolution) - 5mA
+* Voltage reading error (limited by INA219 ADC resolution) - 5mV
 
 # Features
+
+* Do not requere PCB manufactering. Can be assembled on a perf board.
+* Multilayer stacked design to reduce the circuit size
+* Using prebuild arduino modules reduces assemble effort
+* Bright oled display with intuitive user interface
+* Writes dischrge current and vltage values into microSD card.
+* Fully customizable
 
 # Part list
 1. Fan with a heat sink. It should have PWM speed control function. I used stock CPU fan from AMD FX-8350 processor as it was laying in a junk box for a long time after I installed water cooling to my desctop PC.
