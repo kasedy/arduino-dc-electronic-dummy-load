@@ -5,7 +5,7 @@
 
 # Absolute Maximum Ratings
 
-* Maximum Input Load Voltage - 25V
+* Maximum Input Load Voltage - 32V
 * Maximum Input Load Current - 16A
 * Maximum Input Power Dissapation - 120W
 * Power Source - 12V power addapter
