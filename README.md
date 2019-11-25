@@ -16,11 +16,11 @@
 
 # Features
 
-* Do not requere PCB manufactering. Can be assembled on a perf board.
-* Multilayer stacked design to reduce the circuit size
-* Using prebuild arduino modules reduces assemble effort
-* Bright oled display with intuitive user interface
-* Writes dischrge current and vltage values into microSD card.
+* Doesn't require PCB manufacturing and can be assembled on a perf board
+* Multi layer stacked design to reduce the circuit size
+* Using prebuilt Arduino modules reduces assemble effort
+* Bright OLED display with intuitive user interface
+* Writes discharge current and voltage values into microSD card
 * Fully customizable
 
 # Part list
@@ -46,13 +46,21 @@
 20. Connectors KF7.62, KF301-5.0-2P, 5.5x2.1mm Female DC Power Jack, 
 21. 1kOm potentiometer.
 22. 40mm M3 screw (4 pcs).
-23. I used thermistor to measure heat sink temperature but LM35 temperature sensor will be the easier solution as it doesn't requere calibration.
-
+23. I used thermistor to measure heat sink temperature, but LM35 temperature sensor will be the easier solution as it doesn't requere calibration.
 
 # Tools
 1. Soldering iron
 2. Flux
-3. Soldering wire.
-4. Multimeter.
+3. Soldering wire
+4. Multimeter
 
 # Assembly instructions
+
+# Design justification
+
+## 12V power supply
+12V power supply is less convinient than 5V but there are several reasons why it was used. First of all LM385 operational amplifier shows more stable work when powered from 12V. Also it allows to use much bigger variety of N-channel MOSFET as a heat element with a gate voltage hight than 5V and not to be bound to logic level MOSFET. The other reason is that PC fans work from 12v.
+
+## 120W is not enough
+Current design utilize 6 cascades. Each cascade includes opperational amplifier, 0R1 resistor and n-channel MOSFET. Cheap low-quality MOSFETs from Aliexpress can handle about 20W. You can get better MOSFET transistor or add more cascades. Feel free to extend the design.
+
