@@ -24,7 +24,7 @@
 * Fully customizable
 
 # Part list
-1. Fan with a heat sink. It should have PWM speed control function. I used stock CPU fan from AMD FX-8350 processor as it was laying in a junk box for a long time after I installed water cooling to my desctop PC.
+1. 12V fan with a heat sink. It should have PWM speed control function. I used stock CPU fan from AMD FX-8350 processor as it was laying in a junk box for a long time after I installed water cooling to my desctop PC.
 2. CPU cooling Fan Holder for AMD AM3. Bought on [Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20191123235526&origin=y&SearchText=+CPU+cooling+Fan+Holder+for+AMD+AM3).
 3. Resistor 0.1R 3W - 12 pices. [Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20191124000008&SearchText=Resistor+0.1+3W)
 4. Arduino nano. [Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20191124000043&SearchText=Arduino+nano)
