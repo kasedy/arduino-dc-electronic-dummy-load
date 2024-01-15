@@ -56,6 +56,8 @@
 
 # Assembly instructions
 
+![](doc/all_levels.jpg)
+
 # Design justification
 
 ## 12V power supply
