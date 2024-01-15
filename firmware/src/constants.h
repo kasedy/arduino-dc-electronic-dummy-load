@@ -10,6 +10,7 @@
 #define ENCODER_PIN_RIGHT 8
 #define ENCODER_PIN_BTN 6
 
+// Limited by INA219 (+26V)
 #define EMERGENCY_VOLTAGE 25000
 
 #define VOLTAGE_REFERENCE 5.08 // 5v pin mesurment gave reference voltage
@@ -31,9 +32,12 @@
 
 #define UNUSED_ANALOG_PIN A0
 
+// Should give 1MHz to process rotary encoder events every 1ms
 #define MAX_PWM_DUTY_CYCLE 16000
 #define MIN_CURRENT_MA 50 // 1 is munimum
-#define MAX_CURRENT_MA 16000
+// Max curret matches PWM resolution to have simple conversion
+// in AmperagePinManager.
+#define MAX_CURRENT_MA MAX_PWM_DUTY_CYCLE 
 #define AMPERAGE_CHANGE_CORSE_STEP 100
 #define AMPERAGE_CHANGE_FINE_STEP 1
 #define CONTROL_CURRENT_PIN 10 // can not be changed
